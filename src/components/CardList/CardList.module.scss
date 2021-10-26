@@ -1,0 +1,50 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  margin: 3px 0;
+}
+
+.card__info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__today {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.likes {
+  display: flex;
+
+  :nth-child(2n) {
+    margin-left: 3px;
+  }
+}
+
+.icons {
+  display: flex;
+  margin-top: 10px;
+
+  span {
+    margin-left: 3px;
+    align-items: center;
+  }
+}
+
+.card__upload {
+  display: flex;
+  flex-direction: column;
+
+  :nth-child(2) {
+    margin-top: 10px;
+  }
+
+  @media (max-width: 400px) {
+    width: 300px;
+  }
+}
