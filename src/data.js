@@ -1,6 +1,6 @@
 const data = [
   {
-    img: '../img/1.jpg',
+    img: './img/1.jpg',
     likes_today: 23,
     comments_today: 10,
     likes_date: 12,
@@ -9,7 +9,7 @@ const data = [
   },
 
   {
-    img: '../img/2.jpg',
+    img: './img/2.jpg',
     likes_today: 23,
     comments_today: 10,
     likes_date: 12,
@@ -18,7 +18,7 @@ const data = [
   },
 
   {
-    img: '../img/3.jpg',
+    img: './img/3.jpg',
     likes_today: 23,
     comments_today: 10,
     likes_date: 12,
@@ -36,7 +36,7 @@ const data = [
   },
 
   {
-    img: '../img/5.jpg',
+    img: './img/5.jpg',
     likes_today: 23,
     comments_today: 10,
     likes_date: 12,
@@ -45,7 +45,7 @@ const data = [
   },
 
   {
-    img: '../img/6.jpg',
+    img: './img/6.jpg',
     likes_today: 123,
     comments_today: 78,
     likes_date: 56,
@@ -54,7 +54,7 @@ const data = [
   },
 
   {
-    img: '/img/1.jpg',
+    img: './img/7.jpg',
     likes_today: 45,
     comments_today: 34,
     likes_date: 12,
@@ -63,7 +63,7 @@ const data = [
   },
 
   {
-    img: '../img/8.jpg',
+    img: './img/8.jpg',
     likes_today: 23,
     comments_today: 10,
     likes_date: 3,

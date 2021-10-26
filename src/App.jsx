@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <Router basename='/monblan'>
-        <img className='back' src='/img/Vector 1.png' alt='' />
+        <img className='back' src='img/Vector 1.png' alt='' />
         <Header />
         <Switch>
           <Route exact path='/' component={HomeTiles} />

@@ -11,7 +11,7 @@ function Header() {
       <header className={s.header}>
         <img
           className={s.header__logo}
-          src='/img/Group 1.png'
+          src='img/Group 1.png'
           alt=''
         />
         <div className={s.info}>
